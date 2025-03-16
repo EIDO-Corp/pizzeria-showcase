@@ -26,11 +26,36 @@ A beautiful, responsive pizzeria showcase website built with Next.js, Tailwind C
 - [clsx](https://github.com/lukeed/clsx) - Utility for constructing className strings
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge) - Merge Tailwind CSS classes without style conflicts
 
+## GitHub Pages Deployment
+
+This project is configured to automatically deploy to GitHub Pages. The live version can be accessed at: [https://eido-corp.github.io/pizzeria-showcase/](https://eido-corp.github.io/pizzeria-showcase/)
+
+### How It Works
+
+1. The site is built as a static export using Next.js's `output: 'export'` configuration
+2. A GitHub Actions workflow in `.github/workflows/deploy.yml` handles the deployment process
+3. When changes are pushed to the `main` branch, the site is automatically rebuilt and deployed
+
+### Local Development with GitHub Pages Configuration
+
+To run the site locally with the GitHub Pages configuration:
+
+```bash
+# Development server
+npm run dev
+
+# Build the static site
+npm run build
+
+# Serve the built static site
+npm start
+```
+
 ## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pizzeria-showcase.git
+   git clone https://github.com/EIDO-Corp/pizzeria-showcase.git
    cd pizzeria-showcase
    ```
 
