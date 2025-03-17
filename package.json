@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf out && rm -rf .next && next build",
     "start": "npx serve@latest out",
     "lint": "next lint",
     "export": "next build"
