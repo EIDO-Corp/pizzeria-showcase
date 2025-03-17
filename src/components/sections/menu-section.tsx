@@ -10,19 +10,19 @@ export default function MenuSection() {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const categories = [
-    { id: "all", name: "All Pizzas" },
-    { id: "popular", name: "Popular" },
-    { id: "vegetarian", name: "Vegetarian" },
-    { id: "meat", name: "Meat Lovers" },
+    { id: "all", name: "Toutes les Pizzas" },
+    { id: "popular", name: "Populaires" },
+    { id: "vegetarian", name: "Végétariennes" },
+    { id: "meat", name: "Amateurs de Viande" },
   ];
 
   return (
     <section id="menu" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="mb-4">Our Delicious Menu</h2>
+          <h2 className="mb-4">Notre Menu Délicieux</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Explore our wide selection of hand-crafted pizzas made with the finest ingredients and baked to perfection in our wood-fired oven.
+            Explorez notre large sélection de pizzas artisanales faites avec les meilleurs ingrédients et cuites à la perfection dans notre four à bois.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export default function MenuSection() {
                 <CardDescription>{pizza.description}</CardDescription>
               </CardHeader>
               <CardFooter className="border-t border-gray-100 pt-4 dark:border-gray-800">
-                <Button className="w-full" isDecorative={true}>Add to Order</Button>
+                <Button className="w-full" isDecorative={true}>Ajouter à la Commande</Button>
               </CardFooter>
             </Card>
           ))}
@@ -75,7 +75,7 @@ export default function MenuSection() {
 
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" isDecorative={true}>
-            View Full Menu
+            Voir le Menu Complet
           </Button>
         </div>
       </div>

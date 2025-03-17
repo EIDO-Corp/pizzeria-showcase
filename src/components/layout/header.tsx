@@ -7,10 +7,10 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { name: "Home", href: "/" },
+  { name: "Accueil", href: "/" },
   { name: "Menu", href: "/menu" },
-  { name: "About", href: "/about" },
-  { name: "Testimonials", href: "/testimonials" },
+  { name: "À propos", href: "/about" },
+  { name: "Témoignages", href: "/testimonials" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -51,7 +51,7 @@ export function Header({
         <div className="flex-1 flex justify-end">
           <Link href="/order" className="hidden md:inline-flex">
             <Button size="sm" className="bg-red-600 hover:bg-red-700">
-              Order Now
+              Commander maintenant
             </Button>
           </Link>
           
@@ -64,7 +64,7 @@ export function Header({
             ) : (
               <Menu className="h-6 w-6" />
             )}
-            <span className="sr-only">Toggle Menu</span>
+            <span className="sr-only">Basculer le menu</span>
           </button>
         </div>
 
@@ -83,7 +83,7 @@ export function Header({
               ))}
               <Link href="/order" onClick={() => setMobileMenuOpen(false)}>
                 <Button size="sm" className="w-full bg-red-600 hover:bg-red-700">
-                  Order Now
+                  Commander maintenant
                 </Button>
               </Link>
             </div>

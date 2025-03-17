@@ -19,6 +19,6 @@ const Input = React.forwardRef<
     );
   }
 );
-Input.displayName = "Input";
+Input.displayName = "Champ de saisie";
 
 export { Input }; 

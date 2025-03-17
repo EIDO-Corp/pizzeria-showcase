@@ -3,71 +3,71 @@ import { TestimonialDemo } from "@/components/testimonial-demo";
 import { Testimonial } from "@/components/ui/testimonial";
 
 export const metadata: Metadata = {
-  title: "Testimonials - Napoli in Paris",
-  description: "Discover what our customers say about our Napoli in Paris, our service, and our delicious pizzas.",
+  title: "Témoignages - Napoli in Paris",
+  description: "Découvrez ce que nos clients disent de notre Napoli in Paris, de notre service et de nos délicieuses pizzas.",
 };
 
 const testimonials = [
   {
     name: "Marie Durand",
-    role: "Regular Customer",
-    testimonial: "I've been coming here every Friday night for 2 years. The Margherita pizza is simply perfect - the true Neapolitan recipe! The staff is always smiling and the atmosphere is warm. My favorite Italian restaurant in Paris.",
+    role: "Cliente régulière",
+    testimonial: "Je viens ici tous les vendredis soir depuis 2 ans. La pizza Margherita est tout simplement parfaite - la véritable recette napolitaine ! Le personnel est toujours souriant et l'atmosphère est chaleureuse. Mon restaurant italien préféré à Paris.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Thomas Martin",
-    role: "Food Critic",
-    testimonial: "As a food critic, I've tasted pizzas all over Europe. This pizzeria offers one of the best pizza doughs I've ever tried - crispy on the outside, soft on the inside, with ingredients of exemplary freshness.",
+    role: "Critique gastronomique",
+    testimonial: "En tant que critique gastronomique, j'ai goûté des pizzas dans toute l'Europe. Cette pizzeria propose l'une des meilleures pâtes à pizza que j'ai jamais essayées - croustillante à l'extérieur, moelleuse à l'intérieur, avec des ingrédients d'une fraîcheur exemplaire.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Camille Dubois",
-    role: "Neighborhood Resident",
-    testimonial: "I live just around the corner from this pizzeria and I often stop by to take away a pizza. The service is quick, the pizzas are always excellent and the value for money is unbeatable for such authentic pizza.",
+    role: "Résidente du quartier",
+    testimonial: "J'habite juste au coin de cette pizzeria et je m'arrête souvent pour emporter une pizza. Le service est rapide, les pizzas sont toujours excellentes et le rapport qualité-prix est imbattable pour une pizza aussi authentique.",
     rating: 4,
     image: "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Lucas Petit",
-    role: "Student",
-    testimonial: "Their student deals are great! A hearty pizza, a drink, and a dessert at a reduced price. Perfect for my tight budget. The quality is nothing like fast-food chains, it's truly homemade.",
+    role: "Étudiant",
+    testimonial: "Leurs offres pour étudiants sont géniales ! Une pizza copieuse, une boisson et un dessert à prix réduit. Parfait pour mon budget serré. La qualité n'a rien à voir avec celle des chaînes de fast-food, c'est vraiment fait maison.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Sophie Legrand",
-    role: "Mother",
-    testimonial: "We often come as a family on Sunday afternoons. The kids love watching the pizza chef prepare pizzas in front of the wood-fired oven. The children's menu is really suitable and the welcome for the youngest is always warm.",
+    role: "Mère",
+    testimonial: "Nous venons souvent en famille le dimanche après-midi. Les enfants adorent regarder le pizzaiolo préparer les pizzas devant le four à bois. Le menu pour enfants est vraiment adapté et l'accueil pour les plus jeunes est toujours chaleureux.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Jean Moreau",
     role: "Entrepreneur",
-    testimonial: "I regularly organize business lunches here. The atmosphere is relaxed yet professional, and the food always impresses my clients. Their wine cellar is particularly remarkable with excellent Italian wines.",
+    testimonial: "J'organise régulièrement des déjeuners d'affaires ici. L'atmosphère est détendue mais professionnelle, et la nourriture impressionne toujours mes clients. Leur cave à vin est particulièrement remarquable avec d'excellents vins italiens.",
     rating: 4,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Émilie Bertrand",
-    role: "Vegetarian",
-    testimonial: "As a vegetarian, I'm often limited in pizzerias. Here, they offer several truly creative and tasty meatless options. The grilled vegetable pizza is an absolute delight!",
+    role: "Végétarienne",
+    testimonial: "En tant que végétarienne, je suis souvent limitée dans les pizzerias. Ici, ils proposent plusieurs options sans viande vraiment créatives et savoureuses. La pizza aux légumes grillés est un véritable délice !",
     rating: 5,
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Antoine Dupont",
     role: "Chef",
-    testimonial: "As a chef, I'm very demanding about the quality of ingredients and craftsmanship. This pizzeria excels in both areas. Their 48-hour fermented dough has remarkable aromatic complexity. An establishment that honors Italian tradition.",
+    testimonial: "En tant que chef, je suis très exigeant sur la qualité des ingrédients et le savoir-faire. Cette pizzeria excelle dans les deux domaines. Leur pâte fermentée pendant 48 heures a une complexité aromatique remarquable. Un établissement qui honore la tradition italienne.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&w=300&h=300&q=80"
   },
   {
     name: "Nathalie Laurent",
-    role: "Occasional Customer",
-    testimonial: "I'm not usually a big fan of pizza, but these are exceptional. The dough is light and digestible, quite different from industrial pizzas. The toppings are generous without being excessive. A wonderful discovery!",
+    role: "Cliente occasionnelle",
+    testimonial: "Je ne suis généralement pas une grande fan de pizza, mais celles-ci sont exceptionnelles. La pâte est légère et digestible, très différente des pizzas industrielles. Les garnitures sont généreuses sans être excessives. Une merveilleuse découverte !",
     rating: 4,
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?fit=crop&w=300&h=300&q=80"
   },
@@ -76,20 +76,20 @@ const testimonials = [
 export default function TestimonialsPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-4 text-center">Testimonials</h1>
+      <h1 className="text-4xl font-bold mb-4 text-center">Témoignages</h1>
       <p className="text-xl text-gray-600 dark:text-gray-400 text-center mb-12 max-w-3xl mx-auto">
-        Discover what our customers say about our pizzeria, our services, and of course, our artisanal pizzas.
+        Découvrez ce que nos clients disent de notre pizzeria, de nos services et bien sûr, de nos pizzas artisanales.
       </p>
       
-      {/* Featured Testimonials Carousel */}
+      {/* Carousel des témoignages en vedette */}
       <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Featured Testimonials</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-center">Témoignages en vedette</h2>
         <TestimonialDemo />
       </section>
       
-      {/* All Testimonials */}
+      {/* Tous les témoignages */}
       <section>
-        <h2 className="text-2xl font-semibold mb-8 text-center">What Our Customers Say</h2>
+        <h2 className="text-2xl font-semibold mb-8 text-center">Ce que nos clients disent</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <Testimonial
@@ -104,11 +104,11 @@ export default function TestimonialsPage() {
         </div>
       </section>
       
-      {/* Leave a Review */}
+      {/* Laissez un avis */}
       <section className="mt-16 bg-gray-50 dark:bg-gray-800 p-8 rounded-xl">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Share Your Experience</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-center">Partagez votre expérience</h2>
         <p className="text-center mb-8 text-gray-600 dark:text-gray-400">
-          Your opinion matters to us! Share your experience at our pizzeria on
+          Votre avis compte pour nous ! Partagez votre expérience dans notre pizzeria sur
           <a 
             href="https://www.google.com/maps" 
             target="_blank" 
@@ -117,7 +117,7 @@ export default function TestimonialsPage() {
           >
             Google
           </a>
-          or
+          ou
           <a 
             href="https://www.tripadvisor.com" 
             target="_blank" 

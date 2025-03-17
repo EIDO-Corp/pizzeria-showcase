@@ -15,7 +15,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/pizza-hero.jpg"
-            alt="Delicious artisanal pizza"
+            alt="Délicieuse pizza artisanale"
             fill
             priority
             className="object-cover brightness-50"
@@ -26,21 +26,21 @@ export default function Home() {
         {/* Content overlay */}
         <div className="container relative z-10 mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Authentic Neapolitan Pizza in Paris
+            Pizza Napolitaine Authentique à Paris
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
-            Discover our artisanal pizzas prepared with respect for Italian tradition.
-            Fresh ingredients, 48-hour fermented dough, and wood-fired cooking.
+            Découvrez nos pizzas artisanales préparées dans le respect de la tradition italienne.
+            Ingrédients frais, pâte fermentée pendant 48 heures et cuisson au feu de bois.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/menu">
               <Button variant="secondary" size="lg" className="font-medium">
-                View Menu
+                Voir le Menu
               </Button>
             </Link>
             <Link href="/order">
               <Button size="lg" className="bg-red-600 hover:bg-red-700 font-medium">
-                Order Now
+                Commander Maintenant
               </Button>
             </Link>
           </div>

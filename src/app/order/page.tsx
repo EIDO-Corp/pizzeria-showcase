@@ -6,106 +6,106 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 
 export const metadata: Metadata = {
-  title: "Order Online - Pizzeria",
-  description: "Order your favorite pizzas online for delivery or takeaway. Fast, easy and delicious!",
+  title: "Commander en ligne - Pizzeria",
+  description: "Commandez vos pizzas préférées en ligne pour livraison ou à emporter. Rapide, facile et délicieux !",
 };
 
-// Products available for online ordering
+// Produits disponibles pour commande en ligne
 const products = [
   {
     id: 1,
     name: "Margherita",
-    description: "The classic pizza with tomato sauce, mozzarella and fresh basil",
+    description: "La pizza classique avec sauce tomate, mozzarella et basilic frais",
     price: 12.99,
     image: "/images/margherita.jpg",
-    category: "Classics",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Classiques",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
   {
     id: 2,
-    name: "Four Cheese",
-    description: "Mozzarella, gorgonzola, goat cheese and parmesan",
+    name: "Quatre Fromages",
+    description: "Mozzarella, gorgonzola, fromage de chèvre et parmesan",
     price: 15.99,
     image: "/images/margherita.jpg",
-    category: "Classics",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Classiques",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
   {
     id: 3,
-    name: "Vegetarian",
-    description: "Tomato, mozzarella and grilled seasonal vegetables",
+    name: "Végétarienne",
+    description: "Tomate, mozzarella et légumes de saison grillés",
     price: 14.99,
     image: "/images/vegetarian.jpg",
-    category: "Vegetarian",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Végétarien",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
   {
     id: 4,
     name: "Pepperoni",
-    description: "Tomato sauce, mozzarella and pepperoni",
+    description: "Sauce tomate, mozzarella et pepperoni",
     price: 14.99,
     image: "/images/pepperoni.jpg",
-    category: "Meat",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Viande",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
   {
     id: 5,
-    name: "Supreme",
-    description: "Tomato sauce, mozzarella, pepperoni, bell peppers, mushrooms, onions and olives",
+    name: "Suprême",
+    description: "Sauce tomate, mozzarella, pepperoni, poivrons, champignons, oignons et olives",
     price: 16.99,
     image: "/images/supreme.jpg",
-    category: "Meat",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Viande",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
   {
     id: 6,
-    name: "Hawaiian",
-    description: "Tomato sauce, mozzarella, ham and pineapple",
+    name: "Hawaïenne",
+    description: "Sauce tomate, mozzarella, jambon et ananas",
     price: 15.99,
     image: "/images/hawaiian.jpg",
-    category: "Specialties",
-    options: ["Standard size", "Large (+$3)", "Extra large (+$5)"]
+    category: "Spécialités",
+    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
   },
 ];
 
-// Additional options
+// Options supplémentaires
 const extras = [
-  { id: 1, name: "Extra cheese", price: 1.5 },
-  { id: 2, name: "Extra mushrooms", price: 1.0 },
-  { id: 3, name: "Extra pepperoni", price: 1.5 },
-  { id: 4, name: "Extra olives", price: 1.0 },
-  { id: 5, name: "Fresh arugula", price: 1.0 },
-  { id: 6, name: "Truffle cream", price: 3.0 },
+  { id: 1, name: "Fromage supplémentaire", price: 1.5 },
+  { id: 2, name: "Champignons supplémentaires", price: 1.0 },
+  { id: 3, name: "Pepperoni supplémentaire", price: 1.5 },
+  { id: 4, name: "Olives supplémentaires", price: 1.0 },
+  { id: 5, name: "Roquette fraîche", price: 1.0 },
+  { id: 6, name: "Crème de truffe", price: 3.0 },
 ];
 
-// Available drinks
+// Boissons disponibles
 const drinks = [
   { id: 1, name: "Coca-Cola (33cl)", price: 2.5 },
   { id: 2, name: "Sprite (33cl)", price: 2.5 },
-  { id: 3, name: "Mineral water (50cl)", price: 1.5 },
+  { id: 3, name: "Eau minérale (50cl)", price: 1.5 },
   { id: 4, name: "San Pellegrino (50cl)", price: 2.0 },
-  { id: 5, name: "Red wine (37.5cl)", price: 9.0 },
-  { id: 6, name: "Craft beer (33cl)", price: 4.5 },
+  { id: 5, name: "Vin rouge (37.5cl)", price: 9.0 },
+  { id: 6, name: "Bière artisanale (33cl)", price: 4.5 },
 ];
 
 export default function OrderPage() {
   return (
     <div className="pt-24 pb-16 bg-gray-50 dark:bg-gray-900 min-h-screen">
       <div className="container mx-auto px-4">
-        {/* Hero Section */}
+        {/* Section Héros */}
         <div className="text-center mb-12">
-          <h1 className="mb-4">Order Online</h1>
+          <h1 className="mb-4">Commander en ligne</h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Choose your favorite pizzas and order for delivery or pickup in just a few clicks.
+            Choisissez vos pizzas préférées et commandez pour livraison ou à emporter en quelques clics.
           </p>
         </div>
 
-        {/* Order Form */}
+        {/* Formulaire de commande */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column - Pizza Selection */}
+          {/* Colonne de gauche - Sélection de pizza */}
           <div className="lg:col-span-2">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
-              <h2 className="text-2xl font-bold mb-6">Our Pizzas</h2>
+              <h2 className="text-2xl font-bold mb-6">Nos Pizzas</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {products.map((product) => (
@@ -129,7 +129,7 @@ export default function OrderPage() {
                       <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">{product.description}</p>
                       
                       <div className="mb-4">
-                        <Label htmlFor={`size-${product.id}`} className="text-sm">Select size</Label>
+                        <Label htmlFor={`size-${product.id}`} className="text-sm">Sélectionnez la taille</Label>
                         <select 
                           id={`size-${product.id}`} 
                           className="w-full mt-1 p-2 border rounded-md bg-gray-50 dark:bg-gray-700 text-sm"
@@ -142,11 +142,11 @@ export default function OrderPage() {
                       
                       <div className="flex justify-between items-center">
                         <div className="flex items-center">
-                          <button className="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center cursor-not-allowed" title="Not available in the preview">-</button>
+                          <button className="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center cursor-not-allowed" title="Non disponible dans l'aperçu">-</button>
                           <span className="mx-3">0</span>
-                          <button className="w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center cursor-not-allowed" title="Not available in the preview">+</button>
+                          <button className="w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center cursor-not-allowed" title="Non disponible dans l'aperçu">+</button>
                         </div>
-                        <Button variant="outline" className="text-sm" isDecorative={true}>Add to Order</Button>
+                        <Button variant="outline" className="text-sm" isDecorative={true}>Ajouter à la commande</Button>
                       </div>
                     </div>
                   </div>
@@ -155,9 +155,9 @@ export default function OrderPage() {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Extras Section */}
+              {/* Section Extras */}
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-                <h2 className="text-2xl font-bold mb-6">Extra Toppings</h2>
+                <h2 className="text-2xl font-bold mb-6">Garnitures supplémentaires</h2>
                 <div className="space-y-4">
                   {extras.map((extra) => (
                     <div key={extra.id} className="flex justify-between items-center">
@@ -171,9 +171,9 @@ export default function OrderPage() {
                 </div>
               </div>
               
-              {/* Drinks Section */}
+              {/* Section Boissons */}
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-                <h2 className="text-2xl font-bold mb-6">Drinks</h2>
+                <h2 className="text-2xl font-bold mb-6">Boissons</h2>
                 <div className="space-y-4">
                   {drinks.map((drink) => (
                     <div key={drink.id} className="flex justify-between items-center">
@@ -198,20 +198,20 @@ export default function OrderPage() {
             </div>
           </div>
           
-          {/* Right Column - Order Summary and Customer Info */}
+          {/* Colonne de droite - Résumé de commande et informations client */}
           <div className="lg:col-span-1">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8 sticky top-24">
-              <h2 className="text-2xl font-bold mb-6">Order Summary</h2>
+              <h2 className="text-2xl font-bold mb-6">Résumé de la commande</h2>
               
               <div className="border-t border-b py-4 mb-4">
-                <div className="text-gray-500 dark:text-gray-400 italic mb-2">Your cart is empty</div>
+                <div className="text-gray-500 dark:text-gray-400 italic mb-2">Votre panier est vide</div>
                 
-                {/* This would be populated with selected items */}
+                {/* Ceci serait peuplé avec les articles sélectionnés */}
                 {/*
                 <div className="flex justify-between items-start mb-3">
                   <div>
                     <p className="font-medium">Margherita x1</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Standard size</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Taille standard</p>
                   </div>
                   <span>$12.99</span>
                 </div>
@@ -220,11 +220,11 @@ export default function OrderPage() {
               
               <div className="space-y-2 mb-6">
                 <div className="flex justify-between">
-                  <span>Subtotal</span>
+                  <span>Sous-total</span>
                   <span>$0.00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Delivery</span>
+                  <span>Livraison</span>
                   <span>$2.99</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg">
@@ -234,76 +234,76 @@ export default function OrderPage() {
               </div>
               
               <div className="mb-6">
-                <h3 className="font-bold mb-4">Delivery Method</h3>
+                <h3 className="font-bold mb-4">Méthode de livraison</h3>
                 <div className="flex space-x-4 mb-4">
                   <div className="flex items-center">
                     <input type="radio" id="delivery" name="deliveryMethod" className="mr-2" checked />
-                    <Label htmlFor="delivery">Delivery</Label>
+                    <Label htmlFor="delivery">Livraison</Label>
                   </div>
                   <div className="flex items-center">
                     <input type="radio" id="pickup" name="deliveryMethod" className="mr-2" />
-                    <Label htmlFor="pickup">Pickup</Label>
+                    <Label htmlFor="pickup">À emporter</Label>
                   </div>
                 </div>
                 
                 <div className="space-y-4">
                   <div>
-                    <Label htmlFor="address">Delivery Address</Label>
-                    <Input id="address" placeholder="Street address" className="mt-1" />
+                    <Label htmlFor="address">Adresse de livraison</Label>
+                    <Input id="address" placeholder="Adresse" className="mt-1" />
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <div>
-                      <Label htmlFor="city">City</Label>
-                      <Input id="city" placeholder="City" className="mt-1" />
+                      <Label htmlFor="city">Ville</Label>
+                      <Input id="city" placeholder="Ville" className="mt-1" />
                     </div>
                     <div>
-                      <Label htmlFor="postal">Postal Code</Label>
-                      <Input id="postal" placeholder="Postal code" className="mt-1" />
+                      <Label htmlFor="postal">Code postal</Label>
+                      <Input id="postal" placeholder="Code postal" className="mt-1" />
                     </div>
                   </div>
                 </div>
               </div>
               
               <div className="mb-6">
-                <h3 className="font-bold mb-4">Your Information</h3>
+                <h3 className="font-bold mb-4">Vos informations</h3>
                 <div className="space-y-4">
                   <div>
-                    <Label htmlFor="name">Name</Label>
-                    <Input id="name" placeholder="Your full name" className="mt-1" />
+                    <Label htmlFor="name">Nom</Label>
+                    <Input id="name" placeholder="Votre nom complet" className="mt-1" />
                   </div>
                   <div>
-                    <Label htmlFor="phone">Phone Number</Label>
-                    <Input id="phone" placeholder="For delivery contact" className="mt-1" />
+                    <Label htmlFor="phone">Numéro de téléphone</Label>
+                    <Input id="phone" placeholder="Pour contact de livraison" className="mt-1" />
                   </div>
                   <div>
                     <Label htmlFor="email">Email</Label>
-                    <Input id="email" placeholder="For order confirmation" className="mt-1" />
+                    <Input id="email" placeholder="Pour confirmation de commande" className="mt-1" />
                   </div>
                   <div>
-                    <Label htmlFor="notes">Special Instructions</Label>
-                    <Textarea id="notes" placeholder="Any special requests or delivery instructions" className="mt-1" />
+                    <Label htmlFor="notes">Instructions spéciales</Label>
+                    <Textarea id="notes" placeholder="Toute demande spéciale ou instructions de livraison" className="mt-1" />
                   </div>
                 </div>
               </div>
               
               <div className="mb-4">
-                <h3 className="font-bold mb-4">Payment Method</h3>
+                <h3 className="font-bold mb-4">Méthode de paiement</h3>
                 <div className="space-y-2">
                   <div className="flex items-center">
                     <input type="radio" id="cash" name="paymentMethod" className="mr-2" checked />
-                    <Label htmlFor="cash">Cash on Delivery</Label>
+                    <Label htmlFor="cash">Paiement à la livraison</Label>
                   </div>
                   <div className="flex items-center">
                     <input type="radio" id="card" name="paymentMethod" className="mr-2" />
-                    <Label htmlFor="card">Credit Card on Delivery</Label>
+                    <Label htmlFor="card">Carte de crédit à la livraison</Label>
                   </div>
                 </div>
               </div>
               
-              <Button className="w-full py-3 text-lg" isDecorative={true}>Place Order</Button>
+              <Button className="w-full py-3 text-lg" isDecorative={true}>Passer la commande</Button>
               
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
-                By placing your order, you agree to our Terms of Service and Privacy Policy
+                En passant votre commande, vous acceptez nos Conditions de service et notre Politique de confidentialité
               </p>
             </div>
           </div>

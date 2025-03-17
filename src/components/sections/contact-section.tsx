@@ -23,7 +23,7 @@ export default function ContactSection() {
     e.preventDefault();
     // In a real implementation, you would handle the form submission here
     console.log("Form submitted:", formState);
-    alert("Thank you for your message! We will get back to you soon.");
+    alert("Merci pour votre message ! Nous vous répondrons bientôt.");
     setFormState({
       name: "",
       email: "",
@@ -36,9 +36,9 @@ export default function ContactSection() {
     <section id="contact" className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="mb-4">Contact Us</h2>
+          <h2 className="mb-4">Contactez-nous</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Have a question or want to make a reservation? Get in touch with us!
+            Vous avez une question ou souhaitez faire une réservation ? Contactez-nous !
           </p>
         </div>
 
@@ -46,15 +46,15 @@ export default function ContactSection() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm">
-              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-6">Entrer en contact</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-red-100 dark:bg-red-900/30 p-3 rounded-full mr-4">
                     <Phone className="text-red-600 dark:text-red-500 h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-400">(123) 456-7890</p>
+                    <h4 className="font-semibold text-lg">Téléphone</h4>
+                    <p className="text-gray-600 dark:text-gray-400">+33 1 23 45 67 89</p>
                   </div>
                 </div>
                 
@@ -64,7 +64,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-400">info@pizzeria.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">contact@napoliinparis.com</p>
                   </div>
                 </div>
                 
@@ -73,10 +73,10 @@ export default function ContactSection() {
                     <MapPin className="text-red-600 dark:text-red-500 h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Location</h4>
+                    <h4 className="font-semibold text-lg">Emplacement</h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      123 Pizza Street<br />
-                      New York, NY 10001
+                      123 Rue de la Pizza<br />
+                      75001 Paris, France
                     </p>
                   </div>
                 </div>
@@ -86,9 +86,9 @@ export default function ContactSection() {
                     <Clock className="text-red-600 dark:text-red-500 h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Opening Hours</h4>
+                    <h4 className="font-semibold text-lg">Heures d&apos;ouverture</h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Monday - Sunday<br />
+                      Lundi - Dimanche<br />
                       11:00 AM - 10:00 PM
                     </p>
                   </div>
@@ -97,7 +97,7 @@ export default function ContactSection() {
             </div>
             
             <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm">
-              <h3 className="text-2xl font-bold mb-6">Follow Us</h3>
+              <h3 className="text-2xl font-bold mb-6">Suivez-nous</h3>
               <div className="flex space-x-4">
                 <a href="#" title="Not available in the preview" className="bg-red-100 dark:bg-red-900/30 p-3 rounded-full text-red-600 dark:text-red-500 hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors cursor-not-allowed">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -120,11 +120,11 @@ export default function ContactSection() {
 
           {/* Contact Form */}
           <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-8 shadow-sm">
-            <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
+            <h3 className="text-2xl font-bold mb-6">Envoyez-nous un message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Name
+                  Nom
                 </label>
                 <input
                   type="text"
@@ -154,7 +154,7 @@ export default function ContactSection() {
               
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Subject
+                  Sujet
                 </label>
                 <select
                   id="subject"
@@ -164,11 +164,11 @@ export default function ContactSection() {
                   className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 dark:bg-gray-700 dark:text-white"
                   required
                 >
-                  <option value="">Select a subject</option>
-                  <option value="reservation">Reservation</option>
-                  <option value="feedback">Feedback</option>
-                  <option value="catering">Catering</option>
-                  <option value="other">Other</option>
+                  <option value="">Sélectionnez un sujet</option>
+                  <option value="reservation">Réservation</option>
+                  <option value="feedback">Retour d&apos;information</option>
+                  <option value="catering">Traiteur</option>
+                  <option value="other">Autre</option>
                 </select>
               </div>
               
@@ -193,7 +193,7 @@ export default function ContactSection() {
                   className="w-full py-3 text-lg"
                   isDecorative={true}
                 >
-                  Send Message
+                  Envoyer le message
                 </Button>
               </div>
             </form>

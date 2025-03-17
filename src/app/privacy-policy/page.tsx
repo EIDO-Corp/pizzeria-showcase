@@ -1,151 +1,151 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Privacy Policy - Napoli in Paris',
-  description: 'Our privacy policy explains how we collect, use and protect your personal data when you visit our website.',
+  title: 'Politique de Confidentialité - Napoli in Paris',
+  description: 'Notre politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles lorsque vous visitez notre site web.',
 };
 
 export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-8 text-center">Privacy Policy</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">Politique de Confidentialité</h1>
       
       <div className="max-w-3xl mx-auto space-y-8">
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Introduction</h2>
           <p className="mb-3">
-            This Privacy Policy describes how Napoli in Paris LLC collects, uses, and shares personal information that you provide to us when you use our website.
+            Cette Politique de Confidentialité décrit comment Napoli in Paris LLC collecte, utilise et partage les informations personnelles que vous nous fournissez lorsque vous utilisez notre site web.
           </p>
           <p>
-            We take the protection of your personal data very seriously and respect the provisions of the General Data Protection Regulation (GDPR) and the Data Protection Act.
+            Nous prenons très au sérieux la protection de vos données personnelles et respectons les dispositions du Règlement Général sur la Protection des Données (RGPD) et de la Loi sur la Protection des Données.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Data Collection</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Collecte de Données</h2>
           <p className="mb-3">
-            We collect different types of information when you interact with our site:
+            Nous collectons différents types d&apos;informations lorsque vous interagissez avec notre site :
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-3">
-            <li><span className="font-medium">Information provided voluntarily:</span> When you fill out a contact form, place an order or sign up for our newsletter, we collect your personal information (name, email address, telephone number, postal address).</li>
-            <li><span className="font-medium">Browsing data:</span> We automatically collect certain information when you visit our site, including your IP address, browser type and version, the pages you view, the date and time of your visit.</li>
-            <li><span className="font-medium">Cookies:</span> Our site uses cookies to improve your browsing experience and allow us to analyze site usage.</li>
+            <li><span className="font-medium">Informations fournies volontairement :</span> Lorsque vous remplissez un formulaire de contact, passez une commande ou vous inscrivez à notre newsletter, nous collectons vos informations personnelles (nom, adresse e-mail, numéro de téléphone, adresse postale).</li>
+            <li><span className="font-medium">Données de navigation :</span> Nous collectons automatiquement certaines informations lorsque vous visitez notre site, y compris votre adresse IP, le type et la version de votre navigateur, les pages que vous consultez, la date et l&apos;heure de votre visite.</li>
+            <li><span className="font-medium">Cookies :</span> Notre site utilise des cookies pour améliorer votre expérience de navigation et nous permettre d&apos;analyser l&apos;utilisation du site.</li>
           </ul>
           <p>
-            We do not collect sensitive data as defined by the GDPR, such as information about your racial or ethnic origin, political opinions, religious or philosophical beliefs.
+            Nous ne collectons pas de données sensibles telles que définies par le RGPD, comme des informations sur votre origine raciale ou ethnique, vos opinions politiques, vos croyances religieuses ou philosophiques.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Use of Data</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Utilisation des Données</h2>
           <p className="mb-3">
-            The information we collect is used to:
+            Les informations que nous collectons sont utilisées pour :
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Process and deliver your orders</li>
-            <li>Contact you regarding your account or order</li>
-            <li>Respond to your information requests</li>
-            <li>Improve our website and user experience</li>
-            <li>Send you marketing information if you have given your consent</li>
-            <li>Comply with our legal obligations</li>
-            <li>Analyze the use of our site</li>
+            <li>Traiter et livrer vos commandes</li>
+            <li>Vous contacter concernant votre compte ou votre commande</li>
+            <li>Répondre à vos demandes d&apos;informations</li>
+            <li>Améliorer notre site web et l&apos;expérience utilisateur</li>
+            <li>Vous envoyer des informations marketing si vous avez donné votre consentement</li>
+            <li>Respecter nos obligations légales</li>
+            <li>Analyser l&apos;utilisation de notre site</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Legal Basis for Processing</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Base Légale du Traitement</h2>
           <p className="mb-3">
-            We process your personal data on the following legal bases:
+            Nous traitons vos données personnelles sur les bases légales suivantes :
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><span className="font-medium">Consent:</span> When you give us explicit permission to process your data for a specific purpose, such as sending our newsletter.</li>
-            <li><span className="font-medium">Contract performance:</span> When processing is necessary for the performance of a contract to which you are a party, such as processing your order.</li>
-            <li><span className="font-medium">Legal obligation:</span> When processing is necessary to comply with our legal obligations.</li>
-            <li><span className="font-medium">Legitimate interest:</span> When processing is necessary for the purposes of our legitimate interests, such as improving our site and services.</li>
+            <li><span className="font-medium">Consentement :</span> Lorsque vous nous donnez explicitement la permission de traiter vos données pour un but spécifique, comme l&apos;envoi de notre newsletter.</li>
+            <li><span className="font-medium">Exécution du contrat :</span> Lorsque le traitement est nécessaire à l&apos;exécution d&apos;un contrat auquel vous êtes partie, comme le traitement de votre commande.</li>
+            <li><span className="font-medium">Obligation légale :</span> Lorsque le traitement est nécessaire pour respecter nos obligations légales.</li>
+            <li><span className="font-medium">Intérêt légitime :</span> Lorsque le traitement est nécessaire aux fins de nos intérêts légitimes, comme l&apos;amélioration de notre site et de nos services.</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Data Sharing</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Partage de Données</h2>
           <p className="mb-3">
-            We do not sell your personal data to third parties. We may share your information in the following situations:
+            Nous ne vendons pas vos données personnelles à des tiers. Nous pouvons partager vos informations dans les situations suivantes :
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>With our service providers who help us operate our site and provide our services (e.g., delivery services, payment processing)</li>
-            <li>If required by law, such as to respond to a legal process or to protect our rights</li>
-            <li>In the event of a merger, acquisition or sale of assets, your personal data could be among the transferred assets</li>
+            <li>Avec nos prestataires de services qui nous aident à faire fonctionner notre site et à fournir nos services (par exemple, services de livraison, traitement des paiements)</li>
+            <li>Si requis par la loi, par exemple pour répondre à un processus légal ou pour protéger nos droits</li>
+            <li>En cas de fusion, d&apos;acquisition ou de vente d&apos;actifs, vos données personnelles pourraient faire partie des actifs transférés</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Data Retention</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Conservation des Données</h2>
           <p className="mb-3">
-            We retain your personal data for as long as necessary to achieve the purposes for which it was collected, including to meet legal, accounting or reporting requirements.
+            Nous conservons vos données personnelles aussi longtemps que nécessaire pour atteindre les objectifs pour lesquels elles ont été collectées, y compris pour répondre aux exigences légales, comptables ou de reporting.
           </p>
           <p>
-            To determine the appropriate retention period, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure, the purposes for which we process your data and whether we can achieve those purposes through other means.
+            Pour déterminer la durée de conservation appropriée, nous prenons en compte la quantité, la nature et la sensibilité des données personnelles, le risque potentiel de préjudice en cas d&apos;utilisation ou de divulgation non autorisée, les objectifs pour lesquels nous traitons vos données et si nous pouvons atteindre ces objectifs par d&apos;autres moyens.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Data Security</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Sécurité des Données</h2>
           <p>
-            We have implemented appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed. In addition, access to your personal data is limited to employees, agents, contractors and other third parties who need to access it for their work. They will only process your personal data on our instructions and are subject to a duty of confidentiality.
+            Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient accidentellement perdues, utilisées ou accessibles de manière non autorisée, altérées ou divulguées. De plus, l&apos;accès à vos données personnelles est limité aux employés, agents, sous-traitants et autres tiers qui ont besoin d&apos;y accéder pour leur travail. Ils ne traiteront vos données personnelles que sur nos instructions et sont soumis à un devoir de confidentialité.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Your Rights</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Vos Droits</h2>
           <p className="mb-3">
-            In accordance with the GDPR, you have the following rights regarding your personal data:
+            Conformément au RGPD, vous avez les droits suivants concernant vos données personnelles :
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><span className="font-medium">Right of access:</span> You have the right to obtain a copy of the personal data we hold about you.</li>
-            <li><span className="font-medium">Right to rectification:</span> You can request the correction of inaccurate or incomplete personal data.</li>
-            <li><span className="font-medium">Right to erasure:</span> You can request the deletion of your personal data in certain circumstances.</li>
-            <li><span className="font-medium">Right to restriction of processing:</span> You can request the restriction of processing of your personal data.</li>
-            <li><span className="font-medium">Right to data portability:</span> You can request the transfer of your personal data to yourself or to a third party.</li>
-            <li><span className="font-medium">Right to object:</span> You can object to the processing of your personal data in certain circumstances.</li>
-            <li><span className="font-medium">Right to withdraw consent:</span> When we process your data on the basis of your consent, you have the right to withdraw this consent at any time.</li>
+            <li><span className="font-medium">Droit d&apos;accès :</span> Vous avez le droit d&apos;obtenir une copie des données personnelles que nous détenons à votre sujet.</li>
+            <li><span className="font-medium">Droit de rectification :</span> Vous pouvez demander la correction de données personnelles inexactes ou incomplètes.</li>
+            <li><span className="font-medium">Droit à l&apos;effacement :</span> Vous pouvez demander la suppression de vos données personnelles dans certaines circonstances.</li>
+            <li><span className="font-medium">Droit à la limitation du traitement :</span> Vous pouvez demander la limitation du traitement de vos données personnelles.</li>
+            <li><span className="font-medium">Droit à la portabilité des données :</span> Vous pouvez demander le transfert de vos données personnelles à vous-même ou à un tiers.</li>
+            <li><span className="font-medium">Droit d&apos;opposition :</span> Vous pouvez vous opposer au traitement de vos données personnelles dans certaines circonstances.</li>
+            <li><span className="font-medium">Droit de retirer le consentement :</span> Lorsque nous traitons vos données sur la base de votre consentement, vous avez le droit de retirer ce consentement à tout moment.</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Cookies</h2>
           <p className="mb-3">
-            Cookies are small text files placed on your device to collect standard internet log information and visitor behavior information. You can configure your browser to refuse all cookies or to indicate when a cookie is being sent.
+            Les cookies sont de petits fichiers texte placés sur votre appareil pour collecter des informations standard sur les journaux Internet et le comportement des visiteurs. Vous pouvez configurer votre navigateur pour refuser tous les cookies ou pour indiquer lorsqu&apos;un cookie est envoyé.
           </p>
           <p className="mb-3">
-            We use the following types of cookies:
+            Nous utilisons les types de cookies suivants :
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><span className="font-medium">Essential cookies:</span> Necessary for the operation of the site.</li>
-            <li><span className="font-medium">Analytical cookies:</span> Allow us to analyze site usage in order to improve it.</li>
-            <li><span className="font-medium">Functionality cookies:</span> Allow you to remember your preferences and personalize your experience.</li>
-            <li><span className="font-medium">Targeting cookies:</span> Used to show you relevant advertisements (if applicable).</li>
+            <li><span className="font-medium">Cookies essentiels :</span> Nécessaires au fonctionnement du site.</li>
+            <li><span className="font-medium">Cookies analytiques :</span> Nous permettent d&apos;analyser l&apos;utilisation du site afin de l&apos;améliorer.</li>
+            <li><span className="font-medium">Cookies de fonctionnalité :</span> Vous permettent de vous souvenir de vos préférences et de personnaliser votre expérience.</li>
+            <li><span className="font-medium">Cookies de ciblage :</span> Utilisés pour vous montrer des publicités pertinentes (le cas échéant).</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Contact</h2>
           <p className="mb-3">
-            For any questions regarding this privacy policy or to exercise your rights, please contact us:
+            Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, veuillez nous contacter :
           </p>
           <ul className="space-y-2">
-            <li><span className="font-medium">By email:</span> gdpr@pizzeria.com</li>
-            <li><span className="font-medium">By mail:</span> Napoli in Paris LLC, 123 Pizza Street, 75001 Paris, France</li>
-            <li><span className="font-medium">By phone:</span> +33 1 23 45 67 89</li>
+            <li><span className="font-medium">Par e-mail :</span> gdpr@pizzeria.com</li>
+            <li><span className="font-medium">Par courrier :</span> Napoli in Paris LLC, 123 Pizza Street, 75001 Paris, France</li>
+            <li><span className="font-medium">Par téléphone :</span> +33 1 23 45 67 89</li>
           </ul>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Supervisory Authority</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Autorité de Contrôle</h2>
           <p>
-            If you believe that the processing of your personal data constitutes a violation of the GDPR, you have the right to lodge a complaint with the relevant data protection authority in your country.
+            Si vous pensez que le traitement de vos données personnelles constitue une violation du RGPD, vous avez le droit de déposer une plainte auprès de l&apos;autorité de protection des données compétente dans votre pays.
           </p>
         </section>
 
-        <p className="text-center text-gray-500 text-sm mt-12">Last updated: {new Date().toLocaleDateString()}</p>
+        <p className="text-center text-gray-500 text-sm mt-12">Dernière mise à jour : {new Date().toLocaleDateString()}</p>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-black/40 z-10" />
             <Image 
               src={image} 
-              alt="Pizza hero image" 
+              alt="Image héroïque de pizza" 
               fill
               className="object-cover"
               priority={index === 0}
@@ -50,14 +50,14 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 z-10 relative py-20 md:py-0">
         <div className="max-w-3xl text-white">
           <h1 className="mb-6 text-shadow-lg">
-            Authentic Italian Pizza Made with Passion
+            Pizza Italienne Authentique Fait avec Passion
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-shadow-md">
-            Experience the taste of Naples with our wood-fired pizzas made from the freshest ingredients and traditional recipes.
+            Découvrez le goût de Naples avec nos pizzas cuites au feu de bois faites à partir des ingrédients les plus frais et de recettes traditionnelles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="w-full sm:w-auto text-lg px-8 py-6 h-auto" isDecorative={true}>
-              Order Online
+              Commander en Ligne
             </Button>
             <Button
               variant="outline"
@@ -65,7 +65,7 @@ export default function HeroSection() {
               className="w-full sm:w-auto text-lg px-8 py-6 h-auto bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20"
               isDecorative={true}
             >
-              View Menu
+              Voir le Menu
             </Button>
           </div>
           <div className="mt-12 flex items-center space-x-4">
@@ -76,8 +76,8 @@ export default function HeroSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-bold">4.9 Rating</p>
-                <p className="text-sm text-gray-200">Based on 500+ reviews</p>
+                <p className="font-bold">4.9 Évaluation</p>
+                <p className="text-sm text-gray-200">Basé sur 500+ avis</p>
               </div>
             </div>
             <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 flex items-center">
@@ -87,8 +87,8 @@ export default function HeroSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-bold">Fast Delivery</p>
-                <p className="text-sm text-gray-200">30 minutes or free</p>
+                <p className="font-bold">Livraison Rapide</p>
+                <p className="text-sm text-gray-200">30 minutes ou gratuit</p>
               </div>
             </div>
           </div>

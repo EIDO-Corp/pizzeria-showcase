@@ -13,8 +13,8 @@ export default function Footer() {
               <span className="text-2xl font-bold text-white">Pizzeria</span>
             </Link>
             <p className="text-sm mb-4">
-              Artisanal pizzas prepared with passion according to Neapolitan traditions, 
-              wood-fired with fresh, quality ingredients.
+              Pizzas artisanales préparées avec passion selon les traditions napolitaines, 
+              cuites au feu de bois avec des ingrédients frais et de qualité.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="hover:text-red-500 transition-colors">
@@ -37,14 +37,14 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Liens rapides</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="hover:text-red-500 transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-red-500 transition-colors">Accueil</Link></li>
               <li><Link href="/menu" className="hover:text-red-500 transition-colors">Menu</Link></li>
-              <li><Link href="/about" className="hover:text-red-500 transition-colors">About</Link></li>
-              <li><Link href="/testimonials" className="hover:text-red-500 transition-colors">Testimonials</Link></li>
+              <li><Link href="/about" className="hover:text-red-500 transition-colors">À propos</Link></li>
+              <li><Link href="/testimonials" className="hover:text-red-500 transition-colors">Témoignages</Link></li>
               <li><Link href="/contact" className="hover:text-red-500 transition-colors">Contact</Link></li>
-              <li><Link href="/order" className="hover:text-red-500 transition-colors">Order Now</Link></li>
+              <li><Link href="/order" className="hover:text-red-500 transition-colors">Commander maintenant</Link></li>
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>123 Pizza Street, 75001 Paris, France</span>
+                <span>123 Rue de la Pizza, 75001 Paris, France</span>
               </li>
               <li className="flex items-start">
                 <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,22 +76,22 @@ export default function Footer() {
 
           {/* Opening Hours */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Opening Hours</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Heures d&apos;ouverture</h3>
             <ul className="space-y-2">
               <li className="flex justify-between">
-                <span>Monday</span>
-                <span className="text-red-500">Closed</span>
+                <span>Lundi</span>
+                <span className="text-red-500">Fermé</span>
               </li>
               <li className="flex justify-between">
-                <span>Tuesday - Friday</span>
+                <span>Mardi - Vendredi</span>
                 <span>11:30 - 14:30, 18:30 - 22:30</span>
               </li>
               <li className="flex justify-between">
-                <span>Saturday</span>
+                <span>Samedi</span>
                 <span>11:30 - 23:00</span>
               </li>
               <li className="flex justify-between">
-                <span>Sunday</span>
+                <span>Dimanche</span>
                 <span>11:30 - 22:00</span>
               </li>
             </ul>
@@ -101,11 +101,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 mt-8 border-t border-gray-800 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} Napoli in Paris. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Napoli à Paris. Tous droits réservés.</p>
             <div className="mt-4 md:mt-0 flex space-x-6">
-              <Link href="/legal-notice" className="hover:text-red-500 transition-colors">Legal Notice</Link>
-              <Link href="/privacy-policy" className="hover:text-red-500 transition-colors">Privacy Policy</Link>
-              <Link href="/terms-and-conditions" className="hover:text-red-500 transition-colors">Terms & Conditions</Link>
+              <Link href="/legal-notice" className="hover:text-red-500 transition-colors">Mentions légales</Link>
+              <Link href="/privacy-policy" className="hover:text-red-500 transition-colors">Politique de confidentialité</Link>
+              <Link href="/terms-and-conditions" className="hover:text-red-500 transition-colors">Conditions générales</Link>
             </div>
           </div>
         </div>

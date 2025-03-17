@@ -20,9 +20,9 @@ export default function TestimonialsSection() {
     <section id="testimonials" className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="mb-4">What Our Customers Say</h2>
+          <h2 className="mb-4">Ce que nos clients disent</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            See why our customers keep coming back for more of our delicious pizzas.
+            Découvrez pourquoi nos clients reviennent toujours pour plus de nos délicieuses pizzas.
           </p>
         </div>
 

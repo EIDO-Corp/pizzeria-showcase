@@ -28,7 +28,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         ref={ref}
-        title={isDecorative ? "Not available in the preview" : props.title}
+        title={isDecorative ? "Non disponible dans l'aperçu" : props.title}
         {...props}
       >
         {children}

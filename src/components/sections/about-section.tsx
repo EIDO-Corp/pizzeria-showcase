@@ -4,12 +4,12 @@ import { Check } from "lucide-react";
 
 export default function AboutSection() {
   const qualities = [
-    "Authentic Italian recipes",
-    "Fresh, locally-sourced ingredients",
-    "Wood-fired oven for perfect crust",
-    "Handmade dough daily",
-    "Family-owned since 1995",
-    "Award-winning pizzas"
+    "Recettes italiennes authentiques",
+    "Ingrédients frais et locaux",
+    "Four à bois pour une croûte parfaite",
+    "Pâte faite à la main quotidiennement",
+    "Entreprise familiale depuis 1995",
+    "Pizzas primées"
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function AboutSection() {
               <div className="relative rounded-lg overflow-hidden h-48 md:h-64 shadow-lg">
                 <Image
                   src="/images/about-1.jpg"
-                  alt="Pizza chef preparing dough"
+                  alt="Chef de pizza préparant la pâte"
                   fill
                   className="object-cover"
                 />
@@ -30,7 +30,7 @@ export default function AboutSection() {
               <div className="relative rounded-lg overflow-hidden h-64 md:h-80 shadow-lg">
                 <Image
                   src="/images/about-2.jpg"
-                  alt="Fresh ingredients"
+                  alt="Ingrédients frais"
                   fill
                   className="object-cover"
                 />
@@ -40,7 +40,7 @@ export default function AboutSection() {
               <div className="relative rounded-lg overflow-hidden h-64 md:h-80 shadow-lg">
                 <Image
                   src="/images/about-3.jpg"
-                  alt="Wood-fired oven"
+                  alt="Four à bois"
                   fill
                   className="object-cover"
                 />
@@ -48,7 +48,7 @@ export default function AboutSection() {
               <div className="relative rounded-lg overflow-hidden h-48 md:h-64 shadow-lg">
                 <Image
                   src="/images/about-4.jpg"
-                  alt="Pizzeria interior"
+                  alt="Intérieur de la pizzeria"
                   fill
                   className="object-cover"
                 />
@@ -58,16 +58,16 @@ export default function AboutSection() {
 
           {/* Content */}
           <div>
-            <h2 className="mb-6">Our Story</h2>
+            <h2 className="mb-6">Notre Histoire</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
-              Welcome to Pizzeria, where passion meets tradition. Our journey started in 1995 when our 
-              founder, Antonio, brought authentic Neapolitan pizza recipes from his hometown in Italy to create 
-              an unforgettable dining experience.
+              Bienvenue à la Pizzeria, où la passion rencontre la tradition. Notre parcours a commencé en 1995 lorsque notre 
+              fondateur, Antonio, a apporté des recettes authentiques de pizza napolitaine de sa ville natale en Italie pour créer 
+              une expérience culinaire inoubliable.
             </p>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-              Every pizza we create tells a story of dedication to quality, freshness, and tradition. 
-              We use only the finest ingredients, hand-knead our dough daily, and bake each pizza to perfection 
-              in our authentic wood-fired oven imported from Naples.
+              Chaque pizza que nous créons raconte une histoire de dévouement à la qualité, à la fraîcheur et à la tradition. 
+              Nous n&apos;utilisons que les meilleurs ingrédients, pétrissons notre pâte à la main chaque jour, et cuisons chaque pizza à la perfection 
+              dans notre authentique four à bois importé de Naples.
             </p>
 
             {/* Qualities List */}
@@ -82,7 +82,7 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <Button size="lg" isDecorative={true}>Learn More About Us</Button>
+            <Button size="lg" isDecorative={true}>En savoir plus sur nous</Button>
           </div>
         </div>
       </div>

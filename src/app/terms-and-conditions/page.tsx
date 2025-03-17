@@ -1,139 +1,139 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Terms and Conditions - Napoli in Paris',
-  description: 'Terms and Conditions of our Napoli in Paris. Information about orders, delivery, payment, and returns.',
+  title: 'Conditions Générales - Napoli in Paris',
+  description: 'Conditions Générales de notre Napoli in Paris. Informations sur les commandes, la livraison, le paiement et les retours.',
 };
 
 export default function TermsAndConditions() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-8 text-center">Terms and Conditions</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">Conditions Générales</h1>
       
       <div className="max-w-3xl mx-auto space-y-8">
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 1 - Preamble</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 1 - Préambule</h2>
           <p className="mb-3">
-            These Terms and Conditions (hereinafter &quot;T&C&quot;) apply to all orders placed on the website www.pizzeria.com (hereinafter &quot;the Site&quot;) and to the delivery and takeaway services of Napoli in Paris LLC (hereinafter &quot;Pizzeria&quot;).
+            Ces Conditions Générales (ci-après &quot;CG&quot;) s&apos;appliquent à toutes les commandes passées sur le site www.pizzeria.com (ci-après &quot;le Site&quot;) et aux services de livraison et de vente à emporter de Napoli in Paris LLC (ci-après &quot;Pizzeria&quot;).
           </p>
           <p>
-            Any order placed on the Site implies full and complete acceptance of these T&C by the customer. Pizzeria reserves the right to modify these T&C at any time, with the modifications taking effect from the time they are posted on the Site.
+            Toute commande passée sur le Site implique l&apos;acceptation pleine et entière de ces CG par le client. Pizzeria se réserve le droit de modifier ces CG à tout moment, les modifications prenant effet à partir du moment où elles sont publiées sur le Site.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 2 - Products and Prices</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 2 - Produits et Prix</h2>
           <p className="mb-3">
-            The products offered for sale are those that appear on the Site and in our restaurants, subject to availability. The photographs of the products are presented for illustrative purposes only and have no contractual value.
+            Les produits proposés à la vente sont ceux qui apparaissent sur le Site et dans nos restaurants, sous réserve de disponibilité. Les photographies des produits sont présentées à titre illustratif uniquement et n&apos;ont aucune valeur contractuelle.
           </p>
           <p className="mb-3">
-            Prices are indicated in euros including all taxes (VAT). Pizzeria reserves the right to change its prices at any time, but products will be invoiced based on the rates in effect at the time the order is confirmed.
+            Les prix sont indiqués en euros toutes taxes comprises (TVA). Pizzeria se réserve le droit de modifier ses prix à tout moment, mais les produits seront facturés sur la base des tarifs en vigueur au moment de la confirmation de la commande.
           </p>
           <p>
-            Delivery charges may be applied depending on the geographical area and the amount of the order. These charges are clearly indicated during the ordering process before confirmation.
+            Des frais de livraison peuvent être appliqués en fonction de la zone géographique et du montant de la commande. Ces frais sont clairement indiqués lors du processus de commande avant confirmation.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 3 - Orders</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 3 - Commandes</h2>
           <p className="mb-3">
-            To place an order, the customer must follow these steps:
+            Pour passer une commande, le client doit suivre ces étapes :
           </p>
           <ul className="list-decimal pl-6 space-y-2 mb-3">
-            <li>Select products and add them to the cart</li>
-            <li>Check the cart contents and proceed to payment</li>
-            <li>Create an account or log in to an existing account</li>
-            <li>Enter delivery information or choose the takeaway option</li>
-            <li>Choose the payment method and confirm the order</li>
+            <li>Sélectionner des produits et les ajouter au panier</li>
+            <li>Vérifier le contenu du panier et procéder au paiement</li>
+            <li>Créer un compte ou se connecter à un compte existant</li>
+            <li>Entrer les informations de livraison ou choisir l&apos;option de vente à emporter</li>
+            <li>Choisir le mode de paiement et confirmer la commande</li>
           </ul>
           <p className="mb-3">
-            Once the order is confirmed, a confirmation email is sent to the email address provided by the customer. The order is only definitively registered after receipt of payment.
+            Une fois la commande confirmée, un e-mail de confirmation est envoyé à l&apos;adresse e-mail fournie par le client. La commande n&apos;est définitivement enregistrée qu&apos;après réception du paiement.
           </p>
           <p>
-            Pizzeria reserves the right to refuse or cancel any order in case of a dispute with the customer, non-compliance with the information provided, or a problem with the order.
+            Pizzeria se réserve le droit de refuser ou d&apos;annuler toute commande en cas de litige avec le client, de non-conformité aux informations fournies, ou d&apos;un problème avec la commande.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 4 - Payment</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 4 - Paiement</h2>
           <p className="mb-3">
-            Payment can be made by the following methods:
+            Le paiement peut être effectué par les moyens suivants :
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-3">
-            <li>Credit card (Visa, MasterCard)</li>
+            <li>Carte de crédit (Visa, MasterCard)</li>
             <li>PayPal</li>
-            <li>Cash (only for takeaway orders or upon delivery)</li>
-            <li>Meal vouchers (only in our establishments)</li>
+            <li>Espèces (uniquement pour les commandes à emporter ou à la livraison)</li>
+            <li>Chèques-repas (uniquement dans nos établissements)</li>
           </ul>
           <p>
-            Credit card payment is processed through a secure interface. Bank data is encrypted and never transmitted in clear text over the network. Pizzeria never has access to confidential information related to the payment method.
+            Le paiement par carte de crédit est traité via une interface sécurisée. Les données bancaires sont cryptées et ne sont jamais transmises en clair sur le réseau. Pizzeria n&apos;a jamais accès aux informations confidentielles liées au mode de paiement.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 5 - Delivery</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 5 - Livraison</h2>
           <p className="mb-3">
-            Delivery is offered within a 5 km radius around our establishment. Delivery times are given as an indication and may vary depending on traffic, weather conditions or customer volume.
+            La livraison est proposée dans un rayon de 5 km autour de notre établissement. Les délais de livraison sont donnés à titre indicatif et peuvent varier en fonction du trafic, des conditions météorologiques ou du volume de clients.
           </p>
           <p className="mb-3">
-            In case of a delivery delay of more than 30 minutes compared to the announced time, the customer may receive a discount voucher for a future order.
+            En cas de retard de livraison de plus de 30 minutes par rapport au temps annoncé, le client peut recevoir un bon de réduction pour une commande future.
           </p>
           <p>
-            If no one is present at the delivery address, the delivery person will attempt to contact the customer. If there is no response, the order will be returned to our establishment and the customer will have to pick it up within 2 hours. No refund will be made in this case.
+            Si personne n&apos;est présent à l&apos;adresse de livraison, le livreur tentera de contacter le client. En cas de non-réponse, la commande sera retournée à notre établissement et le client devra la récupérer dans les 2 heures. Aucun remboursement ne sera effectué dans ce cas.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 6 - Right of Withdrawal and Complaints</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 6 - Droit de Rétractation et Réclamations</h2>
           <p className="mb-3">
-            In accordance with consumer protection laws, the right of withdrawal cannot be exercised for perishable food products.
+            Conformément aux lois sur la protection des consommateurs, le droit de rétractation ne peut pas être exercé pour les produits alimentaires périssables.
           </p>
           <p className="mb-3">
-            Any complaint regarding product quality or an error in the order must be reported immediately upon receipt of the order by contacting our customer service by phone or email.
+            Toute réclamation concernant la qualité du produit ou une erreur dans la commande doit être signalée immédiatement après réception de la commande en contactant notre service client par téléphone ou par e-mail.
           </p>
           <p>
-            In case of a missing or non-conforming product, Pizzeria undertakes to offer a replacement or a refund of the product concerned, provided that the complaint is made within 2 hours following the receipt of the order.
+            En cas de produit manquant ou non conforme, Pizzeria s&apos;engage à offrir un remplacement ou un remboursement du produit concerné, à condition que la réclamation soit faite dans les 2 heures suivant la réception de la commande.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 7 - Liability</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 7 - Responsabilité</h2>
           <p className="mb-3">
-            Pizzeria cannot be held responsible for damages of any kind that may result from a temporary unavailability of the Site or the impossibility of making a delivery due to a case of force majeure.
+            Pizzeria ne peut être tenue responsable des dommages de toute nature pouvant résulter d&apos;une indisponibilité temporaire du Site ou de l&apos;impossibilité de procéder à une livraison en raison d&apos;un cas de force majeure.
           </p>
           <p>
-            Information on allergens present in our products is available on the Site and upon request in our establishments. It is the customer&apos;s responsibility to check the composition of the products and to report any allergies when ordering.
+            Les informations sur les allergènes présents dans nos produits sont disponibles sur le Site et sur demande dans nos établissements. Il appartient au client de vérifier la composition des produits et de signaler toute allergie lors de la commande.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 8 - Protection of Personal Data</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 8 - Protection des Données Personnelles</h2>
           <p className="mb-3">
-            The information collected during the order is necessary for the processing of the order and the management of the commercial relationship. It may be transmitted to companies that contribute to these relationships, such as those responsible for delivery or payment.
+            Les informations collectées lors de la commande sont nécessaires au traitement de la commande et à la gestion de la relation commerciale. Elles peuvent être transmises à des entreprises qui contribuent à ces relations, telles que celles responsables de la livraison ou du paiement.
           </p>
           <p>
-            In accordance with the General Data Protection Regulation (GDPR), the customer has the right to access, rectify, oppose and delete data concerning them. To exercise these rights, the customer can contact Pizzeria at the email address: gdpr@pizzeria.com. For more information, please refer to our Privacy Policy.
+            Conformément au Règlement Général sur la Protection des Données (RGPD), le client a le droit d&apos;accéder, de rectifier, de s&apos;opposer et de supprimer les données le concernant. Pour exercer ces droits, le client peut contacter Pizzeria à l&apos;adresse e-mail : gdpr@pizzeria.com. Pour plus d&apos;informations, veuillez consulter notre Politique de Confidentialité.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 9 - Intellectual Property</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 9 - Propriété Intellectuelle</h2>
           <p>
-            All elements of the Site (texts, images, logos, etc.) are the exclusive property of Pizzeria or its partners. Any reproduction, representation, modification or exploitation of all or part of these elements is strictly prohibited without prior authorization.
+            Tous les éléments du Site (textes, images, logos, etc.) sont la propriété exclusive de Pizzeria ou de ses partenaires. Toute reproduction, représentation, modification ou exploitation de tout ou partie de ces éléments est strictement interdite sans autorisation préalable.
           </p>
         </section>
 
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 10 - Applicable Law and Disputes</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 10 - Droit Applicable et Litiges</h2>
           <p className="mb-3">
-            These T&C are subject to French law. In case of dispute, French courts will have exclusive jurisdiction.
+            Ces CG sont soumises au droit français. En cas de litige, les tribunaux français auront compétence exclusive.
           </p>
           <p>
-            In accordance with consumer code provisions regarding the amicable settlement of disputes, the customer may use the mediation service MEDICYS, accessible at: www.medicys.fr or by mail at MEDICYS - 73 Boulevard de Clichy, 75009 Paris.
+            Conformément aux dispositions du code de la consommation concernant le règlement amiable des litiges, le client peut utiliser le service de médiation MEDICYS, accessible à : www.medicys.fr ou par courrier à MEDICYS - 73 Boulevard de Clichy, 75009 Paris.
           </p>
         </section>
 
-        <p className="text-center text-gray-500 text-sm mt-12">Last updated: {new Date().toLocaleDateString()}</p>
+        <p className="text-center text-gray-500 text-sm mt-12">Dernière mise à jour : {new Date().toLocaleDateString()}</p>
       </div>
     </div>
   );

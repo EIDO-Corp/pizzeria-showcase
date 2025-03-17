@@ -75,6 +75,6 @@ const Testimonial = React.forwardRef<HTMLDivElement, TestimonialProps>(
     )
   }
 )
-Testimonial.displayName = "Testimonial"
+Testimonial.displayName = "Témoignage"
 
 export { Testimonial } 
