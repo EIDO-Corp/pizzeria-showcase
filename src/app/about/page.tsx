@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "About - Artisanal Pizzeria",
-  description: "Discover the story of our artisanal pizzeria, our passionate team, and our philosophy around authentic Neapolitan pizza.",
+  title: "About - Napoli in Paris",
+  description: "Discover the story of our Napoli in Paris, our passionate team, and our philosophy around authentic Neapolitan pizza.",
 };
 
 // Team members

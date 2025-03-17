@@ -101,7 +101,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 mt-8 border-t border-gray-800 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} Artisanal Pizzeria. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Napoli in Paris. All rights reserved.</p>
             <div className="mt-4 md:mt-0 flex space-x-6">
               <Link href="/legal-notice" className="hover:text-red-500 transition-colors">Legal Notice</Link>
               <Link href="/privacy-policy" className="hover:text-red-500 transition-colors">Privacy Policy</Link>

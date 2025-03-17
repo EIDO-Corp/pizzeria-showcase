@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Legal Notice - Artisanal Pizzeria',
-  description: 'Legal notice for our artisanal pizzeria. Information about the website editor, hosting and terms of use.',
+  title: 'Legal Notice - Napoli in Paris',
+  description: 'Legal notice for our Napoli in Paris. Information about the website editor, hosting and terms of use.',
 };
 
 export default function LegalNotice() {
@@ -13,7 +13,7 @@ export default function LegalNotice() {
       <div className="max-w-3xl mx-auto space-y-8">
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Website Editor</h2>
-          <p className="mb-2"><span className="font-medium">Company name:</span> Artisanal Pizzeria LLC</p>
+          <p className="mb-2"><span className="font-medium">Company name:</span> Napoli in Paris LLC</p>
           <p className="mb-2"><span className="font-medium">Address:</span> 123 Pizza Street, 75001 Paris, France</p>
           <p className="mb-2"><span className="font-medium">Phone:</span> +33 1 23 45 67 89</p>
           <p className="mb-2"><span className="font-medium">Email:</span> contact@pizzeria.com</p>
@@ -32,11 +32,11 @@ export default function LegalNotice() {
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Intellectual Property</h2>
           <p className="mb-3">
-            All content on the site (texts, images, videos, logos, etc.) is protected by copyright and remains the exclusive property of Artisanal Pizzeria LLC.
-            Any reproduction, representation, modification, publication, adaptation or exploitation of all or part of the elements of the site, regardless of the means or process used, is prohibited without prior written authorization from Artisanal Pizzeria LLC.
+            All content on the site (texts, images, videos, logos, etc.) is protected by copyright and remains the exclusive property of Napoli in Paris LLC.
+            Any reproduction, representation, modification, publication, adaptation or exploitation of all or part of the elements of the site, regardless of the means or process used, is prohibited without prior written authorization from Napoli in Paris LLC.
           </p>
           <p>
-            The trademarks and logos present on the site are registered trademarks of Artisanal Pizzeria LLC or its partners. Any unauthorized reproduction constitutes an infringement liable to sanctions.
+            The trademarks and logos present on the site are registered trademarks of Napoli in Paris LLC or its partners. Any unauthorized reproduction constitutes an infringement liable to sanctions.
           </p>
         </section>
 
@@ -46,7 +46,7 @@ export default function LegalNotice() {
             We are committed to protecting the privacy of users of our site in accordance with the General Data Protection Regulation (GDPR) and the Data Protection Act.
           </p>
           <p className="mb-3">
-            Personal data collected on this site is intended for Artisanal Pizzeria LLC and is in no way transferred or sold to third parties. They are used only in the context of customer relationship management and to improve our services.
+            Personal data collected on this site is intended for Napoli in Paris LLC and is in no way transferred or sold to third parties. They are used only in the context of customer relationship management and to improve our services.
           </p>
           <p>
             In accordance with current regulations, you have the right to access, rectify, delete and object to your personal data. To exercise these rights, please contact us by email at: gdpr@pizzeria.com.
@@ -66,7 +66,7 @@ export default function LegalNotice() {
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Limitation of Liability</h2>
           <p>
-            Artisanal Pizzeria LLC cannot be held responsible for direct or indirect damages resulting from the use of the site, including but not limited to, data loss, financial losses or business interruptions. We strive to keep the site information up to date, but do not guarantee the accuracy, completeness or relevance of the information provided.
+            Napoli in Paris LLC cannot be held responsible for direct or indirect damages resulting from the use of the site, including but not limited to, data loss, financial losses or business interruptions. We strive to keep the site information up to date, but do not guarantee the accuracy, completeness or relevance of the information provided.
           </p>
         </section>
 

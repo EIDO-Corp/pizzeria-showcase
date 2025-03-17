@@ -140,7 +140,7 @@ export default function ContactPage() {
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg max-w-xs text-center">
-                    <h3 className="font-bold mb-2">Artisanal Pizzeria</h3>
+                    <h3 className="font-bold mb-2">Napoli in Paris</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       123 Pizza Street
                       <br />

@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Terms and Conditions - Artisanal Pizzeria',
-  description: 'Terms and Conditions of our artisanal pizzeria. Information about orders, delivery, payment, and returns.',
+  title: 'Terms and Conditions - Napoli in Paris',
+  description: 'Terms and Conditions of our Napoli in Paris. Information about orders, delivery, payment, and returns.',
 };
 
 export default function TermsAndConditions() {
@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Article 1 - Preamble</h2>
           <p className="mb-3">
-            These Terms and Conditions (hereinafter &quot;T&C&quot;) apply to all orders placed on the website www.pizzeria.com (hereinafter &quot;the Site&quot;) and to the delivery and takeaway services of Artisanal Pizzeria LLC (hereinafter &quot;Pizzeria&quot;).
+            These Terms and Conditions (hereinafter &quot;T&C&quot;) apply to all orders placed on the website www.pizzeria.com (hereinafter &quot;the Site&quot;) and to the delivery and takeaway services of Napoli in Paris LLC (hereinafter &quot;Pizzeria&quot;).
           </p>
           <p>
             Any order placed on the Site implies full and complete acceptance of these T&C by the customer. Pizzeria reserves the right to modify these T&C at any time, with the modifications taking effect from the time they are posted on the Site.

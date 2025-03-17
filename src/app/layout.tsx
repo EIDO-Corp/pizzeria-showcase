@@ -4,8 +4,8 @@ import { Header } from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
-  title: "Artisanal Pizzeria - Discover our delicious pizzas",
-  description: "Artisanal pizzeria offering authentic pizzas prepared with passion and fresh ingredients. Delivery and takeaway available.",
+  title: "Napoli in Paris - Discover our delicious pizzas",
+  description: "Napoli in Paris offering authentic pizzas prepared with passion and fresh ingredients. Delivery and takeaway available.",
 };
 
 export default function RootLayout({

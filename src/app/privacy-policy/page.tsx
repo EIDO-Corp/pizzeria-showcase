@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Privacy Policy - Artisanal Pizzeria',
+  title: 'Privacy Policy - Napoli in Paris',
   description: 'Our privacy policy explains how we collect, use and protect your personal data when you visit our website.',
 };
 
@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         <section className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Introduction</h2>
           <p className="mb-3">
-            This Privacy Policy describes how Artisanal Pizzeria LLC collects, uses, and shares personal information that you provide to us when you use our website.
+            This Privacy Policy describes how Napoli in Paris LLC collects, uses, and shares personal information that you provide to us when you use our website.
           </p>
           <p>
             We take the protection of your personal data very seriously and respect the provisions of the General Data Protection Regulation (GDPR) and the Data Protection Act.
@@ -133,7 +133,7 @@ export default function PrivacyPolicy() {
           </p>
           <ul className="space-y-2">
             <li><span className="font-medium">By email:</span> gdpr@pizzeria.com</li>
-            <li><span className="font-medium">By mail:</span> Artisanal Pizzeria LLC, 123 Pizza Street, 75001 Paris, France</li>
+            <li><span className="font-medium">By mail:</span> Napoli in Paris LLC, 123 Pizza Street, 75001 Paris, France</li>
             <li><span className="font-medium">By phone:</span> +33 1 23 45 67 89</li>
           </ul>
         </section>

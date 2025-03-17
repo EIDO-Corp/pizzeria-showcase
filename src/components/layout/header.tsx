@@ -32,7 +32,7 @@ export function Header({
         <div className="flex-1 flex justify-start">
           <Link href="/" className="flex items-center gap-2 font-bold">
             <Pizza className="h-6 w-6 text-red-600" />
-            <span className="sr-only sm:not-sr-only">Artisanal Pizzeria</span>
+            <span className="sr-only sm:not-sr-only">Napoli in Paris</span>
           </Link>
         </div>
 

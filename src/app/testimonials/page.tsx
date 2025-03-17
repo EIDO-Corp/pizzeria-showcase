@@ -3,8 +3,8 @@ import { TestimonialDemo } from "@/components/testimonial-demo";
 import { Testimonial } from "@/components/ui/testimonial";
 
 export const metadata: Metadata = {
-  title: "Testimonials - Artisanal Pizzeria",
-  description: "Discover what our customers say about our artisanal pizzeria, our service, and our delicious pizzas.",
+  title: "Testimonials - Napoli in Paris",
+  description: "Discover what our customers say about our Napoli in Paris, our service, and our delicious pizzas.",
 };
 
 const testimonials = [
