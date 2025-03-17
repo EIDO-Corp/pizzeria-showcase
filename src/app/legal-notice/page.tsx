@@ -77,7 +77,7 @@ export default function LegalNotice() {
           </p>
         </section>
 
-        <p className="text-center text-gray-500 text-sm mt-12">Dernière mise à jour : {new Date().toLocaleDateString()}</p>
+        <p className="text-center text-gray-500 text-sm mt-12">Dernière mise à jour : {new Date().toLocaleDateString('fr-FR')}</p>
       </div>
     </div>
   );
