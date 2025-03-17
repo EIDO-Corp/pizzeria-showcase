@@ -160,7 +160,7 @@ export default function MenuPage() {
                     <div className="flex justify-between items-start">
                       <CardTitle>{pizza.name}</CardTitle>
                       <div className="bg-amber-100 text-amber-800 font-bold rounded-full px-3 py-1 text-sm dark:bg-amber-900/30 dark:text-amber-500">
-                        ${pizza.price.toFixed(2)}
+                        {pizza.price.toFixed(2)} €
                       </div>
                     </div>
                     <CardDescription>{pizza.description}</CardDescription>

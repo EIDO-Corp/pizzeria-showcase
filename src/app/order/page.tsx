@@ -19,7 +19,7 @@ const products = [
     price: 12.99,
     image: "/images/margherita.jpg",
     category: "Classiques",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const products = [
     price: 15.99,
     image: "/images/margherita.jpg",
     category: "Classiques",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const products = [
     price: 14.99,
     image: "/images/vegetarian.jpg",
     category: "Végétarien",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const products = [
     price: 14.99,
     image: "/images/pepperoni.jpg",
     category: "Viande",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const products = [
     price: 16.99,
     image: "/images/supreme.jpg",
     category: "Viande",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const products = [
     price: 15.99,
     image: "/images/hawaiian.jpg",
     category: "Spécialités",
-    options: ["Taille standard", "Grande (+3 $)", "Très grande (+5 $)"]
+    options: ["Taille standard", "Grande (+3 €)", "Très grande (+5 €)"]
   },
 ];
 
@@ -124,7 +124,7 @@ export default function OrderPage() {
                     <div className="p-4">
                       <div className="flex justify-between mb-2">
                         <h3 className="font-bold">{product.name}</h3>
-                        <span className="font-bold text-red-500">${product.price.toFixed(2)}</span>
+                        <span className="font-bold text-red-500">{product.price.toFixed(2)} €</span>
                       </div>
                       <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">{product.description}</p>
                       
@@ -165,7 +165,7 @@ export default function OrderPage() {
                         <input type="checkbox" id={`extra-${extra.id}`} className="mr-3" />
                         <Label htmlFor={`extra-${extra.id}`}>{extra.name}</Label>
                       </div>
-                      <span className="text-red-500 font-medium">${extra.price.toFixed(2)}</span>
+                      <span className="text-red-500 font-medium">{extra.price.toFixed(2)} €</span>
                     </div>
                   ))}
                 </div>
@@ -190,7 +190,7 @@ export default function OrderPage() {
                         </select>
                         <Label htmlFor={`drink-qty-${drink.id}`}>{drink.name}</Label>
                       </div>
-                      <span className="text-red-500 font-medium">${drink.price.toFixed(2)}</span>
+                      <span className="text-red-500 font-medium">{drink.price.toFixed(2)} €</span>
                     </div>
                   ))}
                 </div>
@@ -213,7 +213,7 @@ export default function OrderPage() {
                     <p className="font-medium">Margherita x1</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Taille standard</p>
                   </div>
-                  <span>$12.99</span>
+                  <span>12.99 €</span>
                 </div>
                 */}
               </div>
@@ -221,15 +221,15 @@ export default function OrderPage() {
               <div className="space-y-2 mb-6">
                 <div className="flex justify-between">
                   <span>Sous-total</span>
-                  <span>$0.00</span>
+                  <span>0.00 €</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Livraison</span>
-                  <span>$2.99</span>
+                  <span>2.99 €</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg">
                   <span>Total</span>
-                  <span>$2.99</span>
+                  <span>2.99 €</span>
                 </div>
               </div>
               
